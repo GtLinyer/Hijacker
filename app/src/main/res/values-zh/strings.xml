@@ -35,7 +35,7 @@
     <string name="nav_airodump">Airodump</string>
     <string name="nav_mdk3">MDK3</string>
     <string name="nav_reaver">Reaver</string>
-    <string name="nav_crack">破解 .cap 文件</string>
+    <string name="nav_crack">.cap破解文件</string>
     <string name="nav_custom_actions">自定义操作</string>
     <string name="nav_settings">设置</string>
 
@@ -45,14 +45,14 @@
     <!-- AP对话框 (xml) -->
     <string name="mac">MAC:</string>
     <string name="channel">信道:</string>
-    <string name="power">power:</string>
+    <string name="power">功率:</string>
     <string name="enc">加密:</string>
     <string name="auth">验证:</string>
     <string name="cipher">密码:</string>
     <string name="beacons">信标:</string>
     <string name="data">数据:</string>
     <string name="ivs">#s:</string>
-    <string name="clients">Clients:</string>
+    <string name="clients">客户端:</string>
     <string name="lastseen">上一次出现:</string>
     <string name="essid">ESSID:</string>
     <string name="manuf">制造商:</string>
@@ -61,12 +61,12 @@
     <!-- 确认重置对话框 -->
 
     <!-- 破解部分 -->
-    <string name="path_to_cap">.cap 文件</string>
+    <string name="path_to_cap">.cap文件</string>
     <string name="path_to_wordlist">字典</string>
     <string name="start">开始</string>
     <string name="speed_test">速度测试</string>
     <string name="wordlist_notfound">未找到字典</string>
-    <string name="select_wpa_wep">请选择 WPA/WEP</string>
+    <string name="select_wpa_wep">请选择WPA/WEP</string>
     <string name="select_wep_bits">选择密钥的位数</string>
     <string name="capfile_invalid">Cap文件无效</string>
     <string name="wordlist_invalid">字典无效</string>
@@ -81,8 +81,8 @@
     <string name="edit">编辑…</string>
 
     <!-- 自定义操作编辑器部分 -->
-    <string name="requires_associated">需要associated</string>
-    <string name="requires_clients">需要clients</string>
+    <string name="requires_associated">需要已关联</string>
+    <string name="requires_clients">需要客户端</string>
     <string name="title_empty">标题不能为空</string>
     <string name="start_cmd_empty">启动命令不能为空</string>
     <string name="title_newline">标题不能包含换行符</string>
@@ -104,9 +104,9 @@
     <string name="start_command">启动命令</string>
     <string name="stop_command">停止命令</string>
     <string name="save">保存</string>
-    <string name="access_point">Access Point</string>
-    <string name="station">Station</string>
-    <string name="kill_process_on_stop">Has process to kill when implicitly stopping the action</string>
+    <string name="access_point">可获得点</string>
+    <string name="station">站点</string>
+    <string name="kill_process_on_stop">当隐式停止操作时有进程需要杀死</string>
     <string name="process_name">进程名称</string>
 
     <!-- 免责声明 -->
@@ -119,7 +119,7 @@
 
     <!-- Exit -->
     <string name="exit_dialog_title">退出</string>
-    <string name="exit_dialog_message">Airodump, aireplay 和 mdk 将停止。你确定吗？</string>
+    <string name="exit_dialog_message">Airodump, aireplay和mdk将停止。你确定吗？</string>
 
     <!-- 导出对话框 -->
     <string name="export">导出</string>
@@ -141,9 +141,9 @@
     <string name="folder_exists">具有该名称的文件夹已经存在</string>
 
     <!-- 过滤器对话框 (xml) -->
-    <string name="show_ap">显示 Access Points</string>
-    <string name="show_st">显示 Stations</string>
-    <string name="show_st_na">显示 non-associated stations</string>
+    <string name="show_ap">显示可获得点</string>
+    <string name="show_st">显示站点</string>
+    <string name="show_st_na">显示未关联的站点</string>
     <string name="channels">2.4Ghz 信道：</string>
     <string name="all">所有</string>
     <string name="opn">OPN</string>
@@ -153,7 +153,7 @@
     <string name="sort_essid">通过 ESSID</string>
     <string name="sort_beacons_frames">通过信标/帧</string>
     <string name="sort_data_frames">按数据/帧</string>
-    <string name="sort_pwr">通过 power</string>
+    <string name="sort_pwr">通过功率</string>
     <string name="manuf_filter">制造商过滤器</string>
 
     <!-- 首次运行对话框 -->
@@ -276,9 +276,9 @@
     <!-- 发送日志操作 -->
     <string name="unexpected_error_title">意外的错误</string>
     <string name="unexpected_error_message">发生意外的错误。 已在您的外部存储目录中生成了一个错误报告。 它可能包含敏感信息，例如MAC地址，别名和设备信息。 发送前，请检查以下文件。</string>
-    <string name="restart_hijacker">Restart</string>
+    <string name="restart_hijacker">重启</string>
     <string name="cant_create_report">无法创建报告（外部存储写入访问被拒绝）</string>
-    <string name="cant_open_shell">无法打开外壳程序以生成错误报告</string>
+    <string name="cant_open_shell">无法打开shell程序以生成错误报告</string>
     <string name="report_not_created">报表未创建</string>
     <string name="prompt_additional_details">添加有关该错误的一些详细信息，例如应用崩溃时您到底在做什么。</string>
 
@@ -296,7 +296,7 @@
     <string name="open">打开：</string>
     <string name="misc">其他：</string>
     <string name="hidden">隐藏的AP：</string>
-    <string name="connected">已连接的Stations：</string>
+    <string name="connected">已连接的站点：</string>
 
     <!-- 测试对话框 -->
     <string name="testing">测试工具…</string>
